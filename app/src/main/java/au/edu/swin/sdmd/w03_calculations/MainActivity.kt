@@ -92,7 +92,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
     private fun updateScoreDisplay(scoreTextView: TextView) {
         // Update the score text
         scoreTextView.text = "Score: $score"
