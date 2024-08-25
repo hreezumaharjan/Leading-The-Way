@@ -10,6 +10,7 @@
     tools:context=".MainActivity"
     android:background="@drawable/view">
 
+    <!-- Welcome message TextView -->
     <TextView
         android:id="@+id/welcomeTextView"
         android:layout_width="374dp"
@@ -19,6 +20,7 @@
         android:textSize="30sp"
         android:textAlignment="center"/>
 
+    <!-- Score display TextView -->
     <TextView
         android:id="@+id/scoreTextView"
         android:layout_width="wrap_content"
@@ -28,6 +30,7 @@
         android:text="0"
         android:textSize="48sp" />
 
+    <!-- Button to record a climb -->
     <Button
         android:id="@+id/climbButton"
         android:layout_width="wrap_content"
@@ -36,6 +39,7 @@
         android:text="@string/climb_button"
         android:textSize="30sp" />
 
+    <!-- Button to record a fall -->
     <Button
         android:id="@+id/fallButton"
         android:layout_width="wrap_content"
@@ -44,6 +48,7 @@
         android:text="@string/fall_button"
         android:textSize="30sp" />
 
+    <!-- Button to reset the score -->
     <Button
         android:id="@+id/resetButton"
         android:layout_width="wrap_content"
