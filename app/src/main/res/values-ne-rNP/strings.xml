@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chade yau App</string>
+    <string name="welcome_message">बाटो नेतृत्व खेल्न दिनुहोस्</string>
+    <string name="climb_button">चढ्नु</string>
+    <string name="fall_button">अब गिर</string>
+    <string name="reset_button">दोहोर्याउनुहोस्</string>
+    <string name="score_label">स्कोर</string>
+</resources>

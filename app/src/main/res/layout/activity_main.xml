@@ -6,47 +6,50 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/view">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="374dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/welcome_message"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
 
-        <EditText
-            android:id="@+id/number1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:textSize="30sp" />
-
-
-        <EditText
-            android:id="@+id/number2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:textSize="30sp" />
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/equals"
+    <TextView
+        android:id="@+id/scoreTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/equals"
+        android:padding="16dp"
+        android:text="0"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/climbButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/climb_button"
         android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/answer"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/fallButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/fall_button"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/reset_button"
         android:textSize="30sp" />
 
 </LinearLayout>

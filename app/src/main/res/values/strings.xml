@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">W03-Calculations</string>
-    <string name="equals">equals</string>
+    <string name="app_name">Climbing App</string>
+    <string name="welcome_message">Leading The Way</string>
+    <string name="climb_button">Climb</string>
+    <string name="fall_button">Fall</string>
+    <string name="reset_button">Reset</string>
+    <string name="score_label">Score</string>
 </resources>
