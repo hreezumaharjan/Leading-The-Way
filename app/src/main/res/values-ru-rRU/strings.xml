@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chade yau App</string>
+    <string name="welcome_message">давай поиграем в лидеры</string>
+    <string name="climb_button">взбираться</string>
+    <string name="fall_button">падать</string>
+    <string name="reset_button">перезагрузить</string>
+    <string name="score_label">счет</string>
+</resources>

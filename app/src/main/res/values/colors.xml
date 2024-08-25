@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!--  For Score -->
+    <color name="blue">#0D4182</color>
+    <color name="green">#29842D</color>
+    <color name="red">#982F27</color>
+    <color name="black">#000000</color>
+
+    <!--  For Landscape -->
+    <color name="colorClimbButton">#2196F3</color>
+    <color name="colorFallButton">#2196F3</color>
+    <color name="colorResetButton">#2196F3</color>
+    <color name="colorResetButtonText">#0B304E</color>
+    <color name="colorClimbButtonText">#0B304E</color>
+    <color name="colorFallButtonText">#0B304E</color>
+
 </resources>
