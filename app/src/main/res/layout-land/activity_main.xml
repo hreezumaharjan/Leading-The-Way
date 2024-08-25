@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:id="@+id/main"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/view">
+    android:background="@drawable/view"
+    android:id="@+id/main"> <!-- Main container for the layout -->
 
+    <!-- Welcome message TextView -->
     <TextView
         android:id="@+id/welcomeTextView"
         android:layout_width="wrap_content"
@@ -16,6 +17,7 @@
         android:textAlignment="center"
         android:layout_gravity="center_horizontal" />
 
+    <!-- Container for the action buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,6 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp">
 
+        <!-- Button to record a climb -->
         <Button
             android:id="@+id/climbButton"
             android:layout_width="wrap_content"
@@ -33,6 +36,7 @@
             android:backgroundTint="@color/colorClimbButton"
             android:textColor="@color/colorResetButtonText" />
 
+        <!-- Button to record a fall -->
         <Button
             android:id="@+id/fallButton"
             android:layout_width="wrap_content"
@@ -43,6 +47,7 @@
             android:backgroundTint="@color/colorFallButton"
             android:textColor="@color/colorResetButtonText" />
 
+        <!-- Button to reset the score -->
         <Button
             android:id="@+id/resetButton"
             android:layout_width="wrap_content"
@@ -55,6 +60,7 @@
 
     </LinearLayout>
 
+    <!-- Score display TextView -->
     <TextView
         android:id="@+id/scoreTextView"
         android:layout_width="wrap_content"
